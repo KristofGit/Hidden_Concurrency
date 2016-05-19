@@ -1,7 +1,7 @@
-BPM conference 2016 - Hidden Concurrency Testing
+Hidden Concurrency Testing
 =============
 
-Prototypical implementation for the submission: Kristof Böhmer and Stefanie Rinderle-Ma: A Testing Approach for Hidden Concurrencies based on Process Execution Logs. Submitted to BPM 2016.
+Prototypical implementation for the submission: Kristof Böhmer and Stefanie Rinderle-Ma: A Testing Approach for Hidden Concurrencies based on Process Execution Logs.
 
 The prototypical implementation of the presented execution log analyzation approach was applied during the evaluation of the submission. It analyzes process execution logs, identifies units (activities) that likely observe concurrency faults and selects appropriate test cases which enable to verify the identified units for concurrency faults. Moreover it contains additional algorithms which were only utilized during the evaluation (e.g., a random prioritization approach (utilized as a baseline for existing work and the proposed approach) or the calculation of the Average Percentage of Faults Detected (APFD) metric which enables to evaluate the efficiency of the presented concurrency testing prioritization approach). 
 
